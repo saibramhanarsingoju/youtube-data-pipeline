@@ -16,4 +16,4 @@ df_sorted = df.sort_values(by="views", ascending=False)
 
 df_sorted.to_csv(os.path.join(PROCESSED_PATH, "youtube_trending_clean.csv"), index=False)
 
-print("✅ Data transformed and saved to", PROCESSED_PATH)
+print("Data transformed and saved to", PROCESSED_PATH)

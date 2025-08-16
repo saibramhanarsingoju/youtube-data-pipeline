@@ -16,4 +16,4 @@ data = {
 df = pd.DataFrame(data)
 df.to_csv(os.path.join(RAW_DATA_PATH, "youtube_trending.csv"), index=False)
 
-print("✅ Data extracted to", RAW_DATA_PATH)
+print(" Data extracted to", RAW_DATA_PATH)
